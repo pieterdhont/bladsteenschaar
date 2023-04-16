@@ -1,5 +1,5 @@
 "use strict"
-document.querySelectorAll("img").forEach(afbeelding => afbeelding.onclick = speelSpel);
+document.querySelectorAll(".keuze").forEach(afbeelding => afbeelding.onclick = speelSpel);
 
     function speelSpel() {
       const gebruikersKeuze = this.dataset.keuze;

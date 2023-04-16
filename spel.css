@@ -15,9 +15,12 @@ li {
   margin: 10px;
 }
 
-img {
+.keuze {
   width: 100px;
   cursor: pointer;
+}
+#computerkeuze img {
+  width: 100px;
 }
 
 dl {
