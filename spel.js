@@ -15,7 +15,7 @@ document.querySelectorAll("img").forEach(afbeelding => afbeelding.onclick = spee
     function toonComputerKeuze(img, computerKeuze) {
       img.src = `${computerKeuze}.png`;
       img.alt = computerKeuze;
-      img.title = computerKeuze;
+      img.title = computerKeuze; 
       
     }
 
