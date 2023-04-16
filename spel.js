@@ -21,7 +21,7 @@ document.querySelectorAll("img").forEach(afbeelding => afbeelding.onclick = spee
 
     function getComputerKeuze() {
       const keuzes = ['steen', 'blad', 'schaar']; 
-      return keuzes[Math.floor(Math.random() * 3)];
+      return keuzes[Math.floor(Math.random() * keuzes.length)];
     }
 
     function bepaalWinnaar(gebruikersKeuze, computerKeuze) {
