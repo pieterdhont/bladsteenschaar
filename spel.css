@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+}
+
+img {
+  width: 100px;
+  cursor: pointer;
+}
+
+dl {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 1.25em;
+}
+
+dt {
+  font-weight: bold;
+}
+
